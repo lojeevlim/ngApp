@@ -1,0 +1,22 @@
+  :host ::ng-deep .p-menubar {
+    font-weight: bold;
+    padding: 15px;
+    border: 0;
+    background-color:  white ;
+    border-radius:0;
+  
+    .p-menuitem-text {
+        color:#3B82F6 !important;
+       
+      }
+      .p-menuitem-icon {
+        color:#3B82F6!important;
+      }
+     .p-submenu-icon {
+            color: #3B82F6 !important;
+          }
+      .p-submenu-list {
+        background-color: white !important;
+      }
+  }
+  

@@ -1,0 +1,33 @@
+<!-- <div class="grid full-layout">
+    <div class="col-2 md:block hidden ">
+  
+    </div>
+    <div class="col-10 border-1 border-300">
+        <div class="grid grid-nogutter border-1 border-300">
+            <div class="col">
+                <div class="flex justify-content-start">
+                    <div class="flex align-items-start">
+                        <p-button  (click)="toggle()"  styleClass="p-button-secondary p-button-text ">
+                            <i class="pi pi-list" style="font-size:1.5rem"></i>
+                        </p-button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-10">
+        
+            </div>
+        </div>
+
+    </div>
+</div> -->
+
+<div class="grid">
+    <div class="col-fixed">
+        <app-sidenav  [visible]="visible" [ITEMS]="items"></app-sidenav>
+    </div>
+    <div class="col">
+        <app-topnav [ITEMS]="items"></app-topnav>
+        <router-outlet></router-outlet>
+    </div>
+</div>
+

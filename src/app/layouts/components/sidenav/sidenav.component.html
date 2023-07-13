@@ -1,0 +1,6 @@
+<p-sidebar *ngIf="!isLogin" class="bg-primary" [(visible)]="visible" position="left">
+    <p>sidenav works!</p>
+</p-sidebar>
+
+<p-panelMenu  *ngIf="isLogin" [model]="ITEMS" [style]="{'width':'300px'}" [multiple]="true"></p-panelMenu>
+<!-- <p-button type="button" class="mr-2" (click)="show()" icon="pi pi-arrow-right"></p-button> -->

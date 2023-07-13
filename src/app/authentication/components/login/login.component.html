@@ -1,0 +1,30 @@
+
+    <div style="height: 65vh;" class="grid">
+        <div class="col-6 flex align-items-center justify-content-center">
+            <h1 class="text-bold">
+                START YOUR JOURNEY WITH US!
+            </h1>
+        </div>
+        <div class="col-1">
+            <p-divider layout="vertical">
+                <b>JOIN</b>
+            </p-divider>
+        </div>
+        <div class="col-5 flex align-items-center justify-content-center">
+            <div class="p-fluid">
+                <div class=" flex align-items-center justify-content-center">
+                    <p-image src="\assets\logo\logo.png" alt="Image" width="100"></p-image>
+                </div>
+             
+                <div class="field">
+                    <label for="username">Username</label>
+                    <input pInputText id="username" type="text" />
+                </div>
+                <div class="field">
+                    <label for="password">Password</label>
+                    <input pInputText id="password" type="password" />
+                </div>
+                <p-button class="bg-btn" label="Login" [loading]="loading" (click)="login()"></p-button>
+            </div>
+        </div>
+    </div>
